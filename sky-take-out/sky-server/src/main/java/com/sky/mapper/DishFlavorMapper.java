@@ -24,7 +24,7 @@ public interface DishFlavorMapper {
     void insertBatch(List<DishFlavor> flavors);
 
     /**
-     * 根据DishID删除口味表中的暑假
+     * 根据DishID删除口味表中的数据
      * @param dishId
      */
     @Delete("delete from sky_take_out.dish_flavor where dish_id = #{dishId}")

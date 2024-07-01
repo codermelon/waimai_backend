@@ -10,4 +10,10 @@ sky:
     endpoint:
     access-key-id:
     access-key-secret:
-    bucket-name: 
+    bucket-name:
+  redis:
+    host: localhost
+    port: 6379
+  wechat:
+    appid: wx341a2bc79de51526
+    secret: 0a536c31b742ca3fcdb5f45ff263f131
