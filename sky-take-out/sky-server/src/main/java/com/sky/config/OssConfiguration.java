@@ -8,13 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * ClassName: OssConfiguration
- * Description: 配置类，用于创建AliOssUtil对象
- *
- * @author melon
- * @create 2024-06-24 11:34
+ * 配置类，用于创建AliOssUtil对象
  */
-
 @Configuration
 @Slf4j
 public class OssConfiguration {
